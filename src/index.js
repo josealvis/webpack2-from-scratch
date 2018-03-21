@@ -1,3 +1,5 @@
+require('./main.css');
+
 import _ from "lodash";
 import myModule from "./alertFunc";
 
