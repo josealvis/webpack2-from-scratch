@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "build": "npx webpack",
-     "build-watch": "npm run build -- --watch"
+    "build": "npx webpack",
+    "build-watch": "npm run build -- --watch",
+    "server": "node server/main-server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "webpack-cli": "^2.0.12"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "lodash": "^4.17.5",
     "vuejs": "^3.0.1"
   }
