@@ -1,3 +1,14 @@
- export default function(message){
-     return message;
+ 
+ class Notify{
+
+ alert(){
+    alert("fooo");
+
+     }
+
  }
+
+
+ 
+ 
+ export default new Notify();

@@ -1,10 +1,10 @@
-require('./main.css');
+require('./main.scss');
 
 import _ from "lodash";
-import myModule from "./alertFunc";
+import notify from "./alertFunc";
 
 
-var message = myModule(_.join(["webpack2", "vuejs", "lodash"], ", "));
+var message = _.join(["webpack2", "vuejs", "lodash"], ", ");
 var text  =`This is a text for ${message} ok `;
 
 
